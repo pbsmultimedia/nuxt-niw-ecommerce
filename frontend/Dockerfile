@@ -1,12 +1,13 @@
 FROM node:20-alpine
 
+# Set working directory
 WORKDIR /app
 
+# Install dependencies
 RUN apk add --no-cache git
 
-COPY . .
+# Expose port 3000
+EXPOSE 3000
 
-EXPOSE 8080
-
-# Tell Nuxt dev server to use port 8080
-CMD ["sh", "-c", "npm install && npm run dev -- --host 0.0.0.0 --port 8080"]
+# Start Nuxt in development mode
+CMD ["sh", "-c", "npm install && npm run dev -- --host 0.0.0.0"]
