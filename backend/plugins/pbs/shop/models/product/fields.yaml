@@ -1,0 +1,37 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    title:
+        label: Title
+        span: left
+    slug:
+        label: Slug
+        span: right
+        preset:
+            field: title
+            type: slug
+    price:
+        label: Price
+        span: left
+        type: number
+    description:
+        label: Description
+        span: full
+        type: richeditor
+    productable_type:
+        label: Product Type
+        type: dropdown
+        span: left
+        # This should be dynamic
+        options:
+            Pbs\Shop\Models\PhysicalProduct: Physical
+            Pbs\Shop\Models\DigitalProduct: Digital
+        context: create
+    _productable_type_label:
+        label: Type
+        type: text
+        span: left
+        context: update
+        readOnly: true            

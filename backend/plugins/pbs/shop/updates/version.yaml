@@ -1,0 +1,20 @@
+1.0.0:
+    - 'First version of Shop'
+1.0.1:
+    - 'Create Products Table'
+    - v1.0.1/create_products_table.php
+1.0.2:
+    - 'Create PhysicalProducts Table'
+    - v1.0.2/create_physical_products_table.php
+1.0.3:
+    - 'Create DigitalProducts Table'
+    - v1.0.3/create_digital_products_table.php
+1.0.4:
+    - 'Create Orders Table'
+    - v1.0.4/create_orders_table.php
+1.0.5:
+    - 'Create Carts Table'
+    - v1.0.5/create_carts_table.php
+1.0.6:
+    - 'Rename ProductData columns to Productable'
+    - v1.0.6/rename_product_data_columns.php

@@ -1,0 +1,23 @@
+columns:
+    id:
+        label: ID
+        searchable: true
+    first_name:
+        label: First Name
+        searchable: true
+    last_name:
+        label: Last Name
+        searchable: true
+    email:
+        label: Email
+        searchable: true
+    total:
+        label: Total
+        type: number
+        format: "$%.2f"
+    status:
+        label: Status
+        type: text
+    created_at:
+        label: Date
+        type: datetime

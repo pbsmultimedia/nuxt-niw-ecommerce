@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: 'pbs.shop::lang.models.product.label'
+
+# Model Form Field configuration
+form: $/pbs/shop/models/product/fields.yaml
+
+# Model Class name
+modelClass: Pbs\Shop\Models\Product
+
+# Default redirect location
+defaultRedirect: pbs/shop/products
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: pbs/shop/products/update/:id
+    redirectClose: pbs/shop/products
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: pbs/shop/products
+    redirectClose: pbs/shop/products
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

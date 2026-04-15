@@ -1,0 +1,13 @@
+fields:
+    weight:
+        label: Weight (kg)
+        span: left
+    width:
+        label: Width (cm)
+        span: right
+    height:
+        label: Height (cm)
+        span: left
+    length:
+        label: Length (cm)
+        span: right

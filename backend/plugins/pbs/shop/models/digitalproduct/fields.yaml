@@ -1,0 +1,10 @@
+fields:
+    file_url:
+        label: File URL
+        span: full
+        context: update
+    download_limit:
+        label: Download Limit
+        span: left
+        type: number
+        context: update

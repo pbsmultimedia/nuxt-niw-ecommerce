@@ -1,0 +1,21 @@
+columns:
+    id:
+        label: ID
+        searchable: true
+    title:
+        label: Title
+        searchable: true
+    slug:
+        label: Slug
+        searchable: true
+    price:
+        label: Price
+        type: number
+        format: "$%.2f"
+    productable_type:
+        label: Type
+        type: text
+        searchable: true
+    created_at:
+        label: Created At
+        type: datetime

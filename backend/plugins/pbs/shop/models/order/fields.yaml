@@ -1,0 +1,39 @@
+fields:
+    first_name:
+        label: First Name
+        span: left
+        disabled: true
+    last_name:
+        label: Last Name
+        span: right
+        disabled: true
+    email:
+        label: Email
+        span: left
+        disabled: true
+    status:
+        label: Order Status
+        span: right
+        type: dropdown
+        options:
+            pending: Pending
+            processing: Processing
+            shipped: Shipped
+            delivered: Delivered
+            cancelled: Cancelled
+    total:
+        label: Order Total
+        span: left
+        type: number
+        disabled: true
+    address:
+        label: Shipping Address
+        span: full
+        type: textarea
+        disabled: true
+    items:
+        label: Order Items
+        type: partial
+        path: items
+        span: full
+
